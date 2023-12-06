@@ -1,0 +1,12 @@
+<Mod>
+	<Folder Name="Entities" Guid="5fcdf35f-7001-442c-883e-e0502b15d291">
+		<EntityTemplate Name="Raven" Guid="60dc514b-2b8e-40a7-9bc3-09bb1efe0732">
+			<MemberComponentTemplate Name="CorvusGulosus" Guid="9c4df39f-1d68-4116-92df-593b774219c5" InheritanceParent="dec8cf11-de46-476d-a3cc-1ef86630045c"/>
+		</EntityTemplate>
+	</Folder>
+	<Folder Name="Rendering" Guid="dec469ce-9b77-465f-a2a8-36d2640424db">
+		<ComponentTemplate Name="CorvusGulosus" Guid="dec8cf11-de46-476d-a3cc-1ef86630045c" InheritanceParent="b05700ed-7e4e-4679-98f5-b597f421496b">
+			<Parameter Name="Class" Guid="675c41e3-779d-4272-81a1-a977ffef8463" Value="Game.ComponentCorvusGulosusBehavior" Type="string"/>
+		</ComponentTemplate>
+	</Folder>
+</Mod>
