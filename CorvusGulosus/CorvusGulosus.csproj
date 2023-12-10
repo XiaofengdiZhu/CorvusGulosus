@@ -50,7 +50,7 @@
 		<Reference Include="System.Xml"/>
 	</ItemGroup>
 	<ItemGroup>
-		<Compile Include="ComponentCorvusGulosus.cs"/>
+		<Compile Include="ComponentCorvusGulosusBehavior.cs"/>
 		<Compile Include="Properties\AssemblyInfo.cs"/>
 	</ItemGroup>
 	<ItemGroup>
@@ -60,6 +60,11 @@
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="Assets\CorvusGulosus.xdb">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="icon.png">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>

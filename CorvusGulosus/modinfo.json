@@ -2,7 +2,7 @@
   "Name": "CorvusGulosus 暴食之鸦",
   "Version": "1.0",
   "ApiVersion": "1.53",
-  "Description": "给渡鸦加上暴食特性，疯狂增殖并吃光绿叶",
+  "Description": "给渡鸦赋予暴食行为：主动吃草叶方块后繁殖，始终保持饥饿",
   "ScVersion": "2.3.0.0",
   "Link": "https://github.com/XiaofengdiZhu/CorvusGulosus",
   "Author": "销锋镝铸",
